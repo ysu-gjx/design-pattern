@@ -1,4 +1,4 @@
 import './example2'
 
 // import './factory'
-import './single-object'
+// import './single-object'
