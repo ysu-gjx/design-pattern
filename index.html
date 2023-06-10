@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>design-pattern</title>
-</head>
-<body>
-  <p>this is a test</p>
-  <p>this is a test1</p>
-  <p>this is a test2</p>
-  <script>
-    window.onload = function () {
-      // let p = $('p')
-      // console.log(p)
-      // console.log(p.addClass)
-    }
-    
-  </script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>design-pattern</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      #app li {
+        cursor: pointer;
+        line-height: 40px;
+        border-bottom: 1px solid rgb(211, 181, 181);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <ul></ul>
+    </div>
+    <script src="./src/index.js" type="module"></script>
+  </body>
 </html>
